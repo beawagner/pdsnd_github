@@ -44,5 +44,4 @@ washington.csv\
 new_york_city.csv files were used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+For this project I uesd help from the internet: [here](https://stackoverflow.com/questions/63833354/python-pandas-how-to-get-data-every-n-and-every-nth-rows)
