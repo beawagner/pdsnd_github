@@ -39,7 +39,9 @@ For this program's inputs error check was made.
 If the user mispell the _city name_, _month_ or _day_ they get an **error massage** and a **request** to enter the input again.
 
 ### Files used
-Include the files used
+chicago.csv\
+washington.csv\
+new_york_city.csv files were used
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
