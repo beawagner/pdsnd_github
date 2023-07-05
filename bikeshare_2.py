@@ -2,6 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 
+pd.set_option("display.max_columns", 200)
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -181,7 +183,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-def raw_data(df):
+def display_data(df):
     """ Displays the first 5 rows of the table """
     i = 0
     while (i + 5) <= df.shape[0]:
@@ -198,7 +200,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df)    
         
-        for df in raw_data(df):             
+        for df in display_data(df):             
             data = input('\nWould you like to see the raw data? Enter yes or no.\n')
             if data.lower() == 'yes':
                 print(df)
