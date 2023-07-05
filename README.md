@@ -1,5 +1,5 @@
 ### Date created
-Bikeshare project was created on 2023.06.30
+Bikeshare project was created on 2023.06.30\
 This README file was created on 2023.07.03
 
 ### Project Title
@@ -32,6 +32,11 @@ The User can choose to see more about one of _these_ cities. They can **further*
         - earliest, most recent, most common year of birth
 
 After all the statistics the user has the opportunity to see the **raw data** if they _would like to_. If the answer is _No_, then they can whether restart or quit the program. 
+
+### Error check
+For this program's inputs error check was made.
+
+If the user mispell the _city name_, _month_ or _day_ they get an **error massage** and a **request** to enter the input again.
 
 ### Files used
 Include the files used
